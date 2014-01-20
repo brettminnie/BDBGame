@@ -1,0 +1,68 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Graphics, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "i:\Bdb\Graphics\Debug\RSP000016.rsp" with contents
+[
+/Od /I "I:\OgreSDK\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "GRAPHICS_EXPORTS" /D "_MBCS" /D "_WINDLL" /Gm /EHsc /RTC1 /MTd /Yu"stdafx.h" /Fp"Debug/Graphics.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+.\bdbgfxframelistener.cpp
+.\Graphics.cpp
+]
+Creating command line "cl.exe @i:\Bdb\Graphics\Debug\RSP000016.rsp /nologo"
+Creating temporary file "i:\Bdb\Graphics\Debug\RSP000017.rsp" with contents
+[
+/Od /I "I:\OgreSDK\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_USRDLL" /D "GRAPHICS_EXPORTS" /D "_MBCS" /D "_WINDLL" /Gm /EHsc /RTC1 /MTd /Yc"stdafx.h" /Fp"Debug/Graphics.pch" /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+.\stdafx.cpp
+]
+Creating command line "cl.exe @i:\Bdb\Graphics\Debug\RSP000017.rsp /nologo"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+Compiling...
+bdbgfxframelistener.cpp
+i:\Bdb\Game\include\bdbgfxframelistener.h(23) : error C2653: 'bdb' : is not a class or namespace name
+i:\Bdb\Game\include\bdbgfxframelistener.h(23) : error C2871: 'gfx' : a namespace with this name does not exist
+i:\Bdb\Game\include\bdbgfxframelistener.h(25) : error C2504: 'FrameListener' : base class undefined
+i:\Bdb\Game\include\bdbgfxframelistener.h(25) : error C2504: 'KeyListener' : base class undefined
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2143: syntax error : missing ')' before '*'
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2143: syntax error : missing ';' before '*'
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2460: 'CFrameListener::RenderWindow' : uses 'CFrameListener', which is being defined
+        i:\Bdb\Game\include\bdbgfxframelistener.h(25) : see declaration of 'CFrameListener'
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2501: 'CFrameListener::win' : missing storage-class or type specifiers
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2143: syntax error : missing ';' before '*'
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2501: 'CFrameListener::Camera' : missing storage-class or type specifiers
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2501: 'CFrameListener::cam' : missing storage-class or type specifiers
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : warning C4518: 'bool ' : storage-class or type specifier(s) unexpected here; ignored
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2864: 'useBufferedInputKeys' : only const static integral data members can be initialized inside a class or struct
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2501: 'CFrameListener::useBufferedInputKeys' : missing storage-class or type specifiers
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : warning C4518: 'bool ' : storage-class or type specifier(s) unexpected here; ignored
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2059: syntax error : ')'
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2864: 'useBufferedInputMouse' : only const static integral data members can be initialized inside a class or struct
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : error C2501: 'CFrameListener::useBufferedInputMouse' : missing storage-class or type specifiers
+i:\Bdb\Game\include\bdbgfxframelistener.h(32) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+i:\Bdb\Graphics\bdbgfxframelistener.cpp(4) : error C2065: 'win' : undeclared identifier
+i:\Bdb\Graphics\bdbgfxframelistener.cpp(4) : error C2597: illegal reference to non-static member 'CFrameListener::RenderWindow'
+i:\Bdb\Graphics\bdbgfxframelistener.cpp(4) : error C2065: 'Camera' : undeclared identifier
+i:\Bdb\Graphics\bdbgfxframelistener.cpp(4) : error C2065: 'cam' : undeclared identifier
+i:\Bdb\Graphics\bdbgfxframelistener.cpp(4) : error C2062: type 'bool' unexpected
+i:\Bdb\Graphics\bdbgfxframelistener.cpp(4) : error C2143: syntax error : missing ';' before '{'
+i:\Bdb\Graphics\bdbgfxframelistener.cpp(4) : error C2447: '{' : missing function header (old-style formal list?)
+Graphics.cpp
+Generating Code...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://i:\Bdb\Graphics\Debug\BuildLog.htm"
+Graphics - 23 error(s), 4 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

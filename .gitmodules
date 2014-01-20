@@ -1,0 +1,18 @@
+[submodule "Bdb"]
+	path = Bdb
+	url = ./Bdb/
+[submodule "NewtonSDK"]
+	path = NewtonSDK
+	url = ./NewtonSDK/
+[submodule "OpenInputSystem"]
+	path = OpenInputSystem
+	url = ./OpenInputSystem/
+[submodule "src.materials"]
+	path = src.materials
+	url = ./src.materials/
+[submodule "OgreNewt"]
+	path = OgreNewt
+	url = ./OgreNewt/
+[submodule "SQUIRREL2"]
+	path = SQUIRREL2
+	url = ./SQUIRREL2/

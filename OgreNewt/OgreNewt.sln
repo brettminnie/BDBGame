@@ -1,0 +1,65 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OgreNewt_Main", "OgreNewt_Main\OgreNewt_Main.vcproj", "{DCC3C838-9803-497D-8C32-A5985644CCE9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo01_TheBasics", "Demo01_TheBasics\Demo01_TheBasics.vcproj", "{C3D29EE8-4C4C-4275-987E-14479A659D3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCC3C838-9803-497D-8C32-A5985644CCE9} = {DCC3C838-9803-497D-8C32-A5985644CCE9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo02_Joints", "Demo02_Joints\Demo02_Joints.vcproj", "{C3D29EE8-4C4C-4275-987E-14479A659D3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCC3C838-9803-497D-8C32-A5985644CCE9} = {DCC3C838-9803-497D-8C32-A5985644CCE9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo03_CollisionCallbacks", "Demo03_CollisionCallbacks\Demo03_CollisionCallbacks.vcproj", "{E40F5C2F-06E8-46FA-960B-9AB17EB855EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCC3C838-9803-497D-8C32-A5985644CCE9} = {DCC3C838-9803-497D-8C32-A5985644CCE9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo04_Raycasting", "Demo04_Raycasting\Demo04_Raycasting.vcproj", "{C3D29EE8-4C4C-4275-987E-14479A659D3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DCC3C838-9803-497D-8C32-A5985644CCE9} = {DCC3C838-9803-497D-8C32-A5985644CCE9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo05_SimpleVehicle", "Demo05_SimpleVehicle\Demo05_SimpleVehicle.vcproj", "{C3D29EE8-4C4C-4275-987E-14479A659D3D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DCC3C838-9803-497D-8C32-A5985644CCE9}.Debug.ActiveCfg = Debug|Win32
+		{DCC3C838-9803-497D-8C32-A5985644CCE9}.Debug.Build.0 = Debug|Win32
+		{DCC3C838-9803-497D-8C32-A5985644CCE9}.Release.ActiveCfg = Release|Win32
+		{DCC3C838-9803-497D-8C32-A5985644CCE9}.Release.Build.0 = Release|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Debug.ActiveCfg = Debug|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Debug.Build.0 = Debug|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Release.ActiveCfg = Release|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Release.Build.0 = Release|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Debug.ActiveCfg = Debug|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Debug.Build.0 = Debug|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Release.ActiveCfg = Release|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Release.Build.0 = Release|Win32
+		{E40F5C2F-06E8-46FA-960B-9AB17EB855EB}.Debug.ActiveCfg = Debug|Win32
+		{E40F5C2F-06E8-46FA-960B-9AB17EB855EB}.Debug.Build.0 = Debug|Win32
+		{E40F5C2F-06E8-46FA-960B-9AB17EB855EB}.Release.ActiveCfg = Release|Win32
+		{E40F5C2F-06E8-46FA-960B-9AB17EB855EB}.Release.Build.0 = Release|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Debug.ActiveCfg = Debug|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Debug.Build.0 = Debug|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Release.ActiveCfg = Release|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Release.Build.0 = Release|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Debug.ActiveCfg = Debug|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Debug.Build.0 = Debug|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Release.ActiveCfg = Release|Win32
+		{C3D29EE8-4C4C-4275-987E-14479A659D3D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

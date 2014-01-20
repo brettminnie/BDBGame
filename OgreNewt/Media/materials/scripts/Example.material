@@ -1,0 +1,112 @@
+material Simple/RockWall
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture rockwall.tga
+			}
+		}
+	}
+}
+
+material Simple/BumpyMetal
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BumpyMetal.jpg
+			}
+		}
+	}
+}
+
+material Simple/BeachStones
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture beachstones.jpg
+			}
+		}
+	}
+}
+
+material Simple/dirt01
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture dirt01.jpg
+			}
+		}
+	}
+}
+
+material ConveyorBelt1
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				scroll_anim 0.105 0
+				texture conveyor.png
+			}
+		}
+	}
+}
+
+material ConveyorBelt2
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				scroll_anim -0.22 0
+				texture conveyor.png
+			}
+		}
+	}
+}
+
+
+material Examples/CloudyNoonSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture cloudy_noon.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tutorial_10_CustomJoints - Win32 ReleaseDouble--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2CC.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /I "..\..\sdk\customJoints" /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /D "_NEWTON_DOUBLE_PRECISION__" /Fp"Tutorial_10_CustomJoints___Win32_ReleaseDouble/tutorial10.pch" /YX /Fo"Tutorial_10_CustomJoints___Win32_ReleaseDouble/" /Fd"Tutorial_10_CustomJoints___Win32_ReleaseDouble/" /FD /c 
+"C:\newtonSDK\sdk\customJoints\CustomBallAndSocket.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomConeLimitedBallAndSocket.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomCorkScrew.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomHinge.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomRayCastCar.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomSlider.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomUniversal.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomUpVector.cpp"
+"C:\newtonSDK\sdk\customJoints\DryRollingFriction.cpp"
+"C:\newtonSDK\sdk\customJoints\NewtonCustomJoint.cpp"
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\toolBox\dTree.cpp"
+"C:\newtonSDK\samples\tutorial_10_CustomJoints\CharaterControl.cpp"
+"C:\newtonSDK\samples\toolBox\dChunkParsel.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\tutorial_10_CustomJoints\JointsTutorial.cpp"
+"C:\newtonSDK\samples\common\LevelPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_10_CustomJoints\Materials.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_10_CustomJoints\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2CC.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2CD.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Tutorial_10_CustomJoints___Win32_ReleaseDouble/Tutorial_10_CustomJoints.pdb" /machine:I386 /out:"..\bin\Tutorial_10_CustomJoints.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st_double" 
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CustomBallAndSocket.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CustomConeLimitedBallAndSocket.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CustomCorkScrew.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CustomHinge.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CustomRayCastCar.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CustomSlider.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CustomUniversal.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CustomUpVector.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\DryRollingFriction.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\NewtonCustomJoint.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\dBaseHierarchy.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\dCRC.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\dSceneNode.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\dTree.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\CharaterControl.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\dChunkParsel.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\GraphicSystem.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\HiResTimer.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\JointsTutorial.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\LevelPrimitive.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\Materials.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\OpenGlUtil.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\RenderPrimitive.obj
+.\Tutorial_10_CustomJoints___Win32_ReleaseDouble\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2CD.tmp"
+<h3>Output Window</h3>
+Compiling...
+CustomBallAndSocket.cpp
+CustomConeLimitedBallAndSocket.cpp
+CustomCorkScrew.cpp
+CustomHinge.cpp
+CustomRayCastCar.cpp
+CustomSlider.cpp
+CustomUniversal.cpp
+CustomUpVector.cpp
+DryRollingFriction.cpp
+NewtonCustomJoint.cpp
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+dTree.cpp
+CharaterControl.cpp
+dChunkParsel.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+JointsTutorial.cpp
+LevelPrimitive.cpp
+Materials.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2CF.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2CF.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+
+
+
+<h3>Results</h3>
+Tutorial_10_CustomJoints.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

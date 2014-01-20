@@ -1,0 +1,6 @@
+ 
+
+ file (format)         size(compressed)  faces
+
+ dagger1w.3ds           401k (208k)      15768 
+

@@ -1,0 +1,735 @@
+3dtVersion 1.31
+TextureLib "D:\\Program Files\\Eclipse\\Genesis3D\\Levels\\gedit.txl"
+HeadersDir "D:\\Program Files\\Eclipse\\Genesis3D\\src;D:\\Program Files\\Eclipse\\Genesis3D\\src\\fx;D:\\Program Files\\Eclipse\\Genesis3D\\src\\game"
+NumEntities 4
+NumModels 0
+NumGroups 1
+Brushlist 5
+Brush "greenwood"
+	Flags 1
+	ModelId 0
+	GroupId 0
+	HullSize 1.000000
+	Type 2
+	BrushFaces 6
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 65.999977 418.000000 -20.000008
+			Vec3d 65.999977 418.000000 19.999992
+			Vec3d -77.999931 402.000000 19.999992
+			Vec3d -77.999931 402.000000 -20.000008
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -77.999931 354.000000 19.999992
+			Vec3d 65.999977 370.000000 19.999992
+			Vec3d 65.999977 370.000000 -20.000008
+			Vec3d -77.999931 354.000000 -20.000008
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 65.999977 418.000000 19.999992
+			Vec3d 65.999977 370.000000 19.999992
+			Vec3d -77.999931 354.000000 19.999992
+			Vec3d -77.999931 402.000000 19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -77.999931 354.000000 -20.000008
+			Vec3d 65.999977 370.000000 -20.000008
+			Vec3d 65.999977 418.000000 -20.000008
+			Vec3d -77.999931 402.000000 -20.000008
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -77.999931 402.000000 19.999992
+			Vec3d -77.999931 354.000000 19.999992
+			Vec3d -77.999931 354.000000 -20.000008
+			Vec3d -77.999931 402.000000 -20.000008
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 65.999977 370.000000 -20.000008
+			Vec3d 65.999977 370.000000 19.999992
+			Vec3d 65.999977 418.000000 19.999992
+			Vec3d 65.999977 418.000000 -20.000008
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+Brush "coreceiling"
+	Flags 68
+	ModelId 0
+	GroupId 0
+	HullSize 1.000000
+	Type 2
+	BrushFaces 8
+		NumPoints 6
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -103.999985 306.000000 4.002350
+			Vec3d -91.999985 306.000000 -15.999978
+			Vec3d -68.000015 306.000000 -15.999985
+			Vec3d -56.000011 306.000000 4.002317
+			Vec3d -68.000015 306.000000 23.999977
+			Vec3d -91.999985 306.000000 23.999989
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "Roma"
+		LightScale 2.000000 2.000000
+		NumPoints 6
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -91.999985 257.999908 23.999989
+			Vec3d -68.000015 257.999908 23.999977
+			Vec3d -56.000011 257.999908 4.002317
+			Vec3d -68.000015 257.999908 -15.999985
+			Vec3d -91.999985 257.999908 -15.999978
+			Vec3d -103.999985 257.999908 4.002350
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "Roma"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -103.999985 257.999908 4.002350
+			Vec3d -91.999985 257.999908 -15.999978
+			Vec3d -91.999985 306.000000 -15.999978
+			Vec3d -103.999985 306.000000 4.002350
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "Roma"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -91.999985 257.999908 -15.999978
+			Vec3d -68.000015 257.999908 -15.999985
+			Vec3d -68.000015 306.000000 -15.999985
+			Vec3d -91.999985 306.000000 -15.999978
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "Roma"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -68.000015 257.999908 -15.999985
+			Vec3d -56.000011 257.999908 4.002317
+			Vec3d -56.000011 306.000000 4.002317
+			Vec3d -68.000015 306.000000 -15.999985
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "Roma"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -56.000011 257.999908 4.002317
+			Vec3d -68.000015 257.999908 23.999977
+			Vec3d -68.000015 306.000000 23.999977
+			Vec3d -56.000011 306.000000 4.002317
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "Roma"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -68.000015 257.999908 23.999977
+			Vec3d -91.999985 257.999908 23.999989
+			Vec3d -91.999985 306.000000 23.999989
+			Vec3d -68.000015 306.000000 23.999977
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "Roma"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -91.999985 257.999908 23.999989
+			Vec3d -103.999985 257.999908 4.002350
+			Vec3d -103.999985 306.000000 4.002350
+			Vec3d -91.999985 306.000000 23.999989
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "Roma"
+		LightScale 2.000000 2.000000
+Brush "w_ceiling"
+	Flags 1025
+	ModelId 0
+	GroupId 0
+	HullSize 16.000000
+	Type 1
+Brushlist 2
+Brush "w_ceiling"
+	Flags 1025
+	ModelId 0
+	GroupId 0
+	HullSize 16.000000
+	Type 2
+	BrushFaces 5
+		NumPoints 3
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -77.999992 266.000000 -59.999992
+			Vec3d -14.000023 266.000000 -0.000001
+			Vec3d -77.999992 370.000000 -0.000001
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+		NumPoints 3
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -141.999969 266.000000 -0.000001
+			Vec3d -77.999992 266.000000 -59.999992
+			Vec3d -77.999992 370.000000 -0.000001
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+		NumPoints 3
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -77.999992 266.000000 59.999992
+			Vec3d -141.999969 266.000000 -0.000001
+			Vec3d -77.999992 370.000000 -0.000001
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+		NumPoints 3
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -14.000023 266.000000 -0.000016
+			Vec3d -77.999992 266.000000 59.999992
+			Vec3d -77.999992 370.000000 -0.000001
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -14.000023 266.000000 -0.000001
+			Vec3d -77.999992 266.000000 -59.999992
+			Vec3d -141.999969 266.000000 -0.000001
+			Vec3d -77.999992 266.000000 59.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+Brush "w_ceiling"
+	Flags 145
+	ModelId 0
+	GroupId 0
+	HullSize 16.000000
+	Type 2
+	BrushFaces 5
+		NumPoints 3
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -78.001579 328.752258 -0.003497
+			Vec3d -78.001579 282.000000 -26.975948
+			Vec3d -49.231480 282.000000 -0.003501
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+		NumPoints 3
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -78.001297 282.000000 -26.976616
+			Vec3d -78.001297 328.754211 -0.002987
+			Vec3d -106.773109 282.000000 -0.002987
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+		NumPoints 3
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -106.772545 282.000000 -0.002883
+			Vec3d -78.001068 328.753784 -0.002886
+			Vec3d -78.001068 282.000000 26.970449
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+		NumPoints 3
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -78.000824 282.000000 26.975153
+			Vec3d -78.000824 328.757782 -0.000401
+			Vec3d -49.226822 282.000000 -0.000409
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d -49.227371 282.000000 -0.000284
+			Vec3d -77.999115 282.000000 -26.973799
+			Vec3d -106.770576 282.000000 -0.000549
+			Vec3d -77.998657 282.000000 26.973127
+			TexInfo Rotate 0 Shift 0 0 Scale 1.000000 1.000000 Name "coreceiling"
+		LightScale 2.000000 2.000000
+Brush "greenwood"
+	Flags 1
+	ModelId 0
+	GroupId 0
+	HullSize 1.000000
+	Type 2
+	BrushFaces 6
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 129.999969 358.000000 -19.999992
+			Vec3d 129.999969 358.000000 19.999992
+			Vec3d 65.999977 418.000000 19.999992
+			Vec3d 65.999977 418.000000 -19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 65.999977 366.000000 19.999992
+			Vec3d 129.999969 306.000000 19.999992
+			Vec3d 129.999969 306.000000 -19.999992
+			Vec3d 65.999977 366.000000 -19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 129.999969 358.000000 19.999992
+			Vec3d 129.999969 306.000000 19.999992
+			Vec3d 65.999977 366.000000 19.999992
+			Vec3d 65.999977 418.000000 19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 65.999977 366.000000 -19.999992
+			Vec3d 129.999969 306.000000 -19.999992
+			Vec3d 129.999969 358.000000 -19.999992
+			Vec3d 65.999977 418.000000 -19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 65.999977 418.000000 19.999992
+			Vec3d 65.999977 366.000000 19.999992
+			Vec3d 65.999977 366.000000 -19.999992
+			Vec3d 65.999977 418.000000 -19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 129.999969 306.000000 -19.999992
+			Vec3d 129.999969 306.000000 19.999992
+			Vec3d 129.999969 358.000000 19.999992
+			Vec3d 129.999969 358.000000 -19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+Brush "gray"
+	Flags 1
+	ModelId 0
+	GroupId 0
+	HullSize 1.000000
+	Type 2
+	BrushFaces 8
+		NumPoints 6
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 141.999969 358.000000 0.000480
+			Vec3d 132.000092 358.000000 19.999992
+			Vec3d 111.999977 358.000000 19.999992
+			Vec3d 101.999977 358.000000 0.000480
+			Vec3d 111.999977 358.000000 -20.000008
+			Vec3d 132.000092 358.000000 -20.000008
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 6
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 132.000092 -418.000000 -20.000008
+			Vec3d 111.999977 -418.000000 -20.000008
+			Vec3d 101.999977 -418.000000 0.000480
+			Vec3d 111.999977 -418.000000 19.999992
+			Vec3d 132.000092 -418.000000 19.999992
+			Vec3d 141.999969 -418.000000 0.000480
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 141.999969 -418.000000 0.000480
+			Vec3d 132.000092 -418.000000 19.999992
+			Vec3d 132.000092 358.000000 19.999992
+			Vec3d 141.999969 358.000000 0.000480
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 132.000092 -418.000000 19.999992
+			Vec3d 111.999977 -418.000000 19.999992
+			Vec3d 111.999977 358.000000 19.999992
+			Vec3d 132.000092 358.000000 19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 111.999977 -418.000000 19.999992
+			Vec3d 101.999977 -418.000000 0.000480
+			Vec3d 101.999977 358.000000 0.000480
+			Vec3d 111.999977 358.000000 19.999992
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 101.999977 -418.000000 0.000480
+			Vec3d 111.999977 -418.000000 -20.000008
+			Vec3d 111.999977 358.000000 -20.000008
+			Vec3d 101.999977 358.000000 0.000480
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 111.999977 -418.000000 -20.000008
+			Vec3d 132.000092 -418.000000 -20.000008
+			Vec3d 132.000092 358.000000 -20.000008
+			Vec3d 111.999977 358.000000 -20.000008
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+		NumPoints 4
+		Flags 512
+		Light 300
+		MipMapBias 1.000000
+		Translucency 255.000000
+		Reflectivity 1.000000
+			Vec3d 132.000092 -418.000000 -20.000008
+			Vec3d 141.999969 -418.000000 0.000480
+			Vec3d 141.999969 358.000000 0.000480
+			Vec3d 132.000092 358.000000 -20.000008
+			TexInfo Rotate 0 Shift 0 0 Scale 0.500000 0.500000 Name "greenwood"
+		LightScale 2.000000 2.000000
+Class CEntList
+EntCount 4
+CurEnt 0
+CEntity
+eStyle 0
+eOrigin -70 10 4 2
+eFlags 1
+eGroup 0
+ePairCount 9
+Key angles Value "0 0 270"
+Key arc Value "60"
+Key classname Value "spotlight"
+Key color Value "255 255 255"
+Key DummyRadius Value "150"
+Key light Value "999"
+Key origin Value "-70 10 4"
+Key style Value "0"
+Key %name% Value "spotlight1"
+End CEntity
+CEntity
+eStyle 0
+eOrigin -224 -376 0 2
+eFlags 1
+eGroup 0
+ePairCount 6
+Key Brightness Value "100"
+Key classname Value "FogLight"
+Key Color Value "255 255 255"
+Key Origin Value "-224 -376 0"
+Key Radius Value "500"
+Key %name% Value "FogLight1"
+End CEntity
+CEntity
+eStyle 0
+eOrigin -77 229 0 2
+eFlags 1
+eGroup 0
+ePairCount 16
+Key AllowRotation Value "1"
+Key classname Value "Corona"
+Key Color Value "255.0 255.0 255.0"
+Key FadeOut Value "1"
+Key FadeTime Value "0.15"
+Key LastTime Value "0.0"
+Key LastVisibleRadius Value "0.0"
+Key LastVisibleTime Value "0.0"
+Key MaxRadius Value "50"
+Key MaxRadiusDistance Value "1000"
+Key MaxVisibleDistance Value "2000"
+Key MinRadius Value "1"
+Key MinRadiusDistance Value "100"
+Key Model Value "<null>"
+Key origin Value "-77 229 0"
+Key %name% Value "Corona1"
+End CEntity
+CEntity
+eStyle 0
+eOrigin -75 203 0 2
+eFlags 1
+eGroup 0
+ePairCount 6
+Key classname Value "light"
+Key color Value "255 255 255"
+Key light Value "500"
+Key origin Value "-75 203 0"
+Key style Value "0"
+Key %name% Value "light1"
+End CEntity
+Group "Default"
+	GroupId 0
+	Visible 1
+	Locked 0
+Color 255.000000 255.000000 255.000000
+Sky
+0 ""
+0 ""
+0 ""
+0 ""
+0 ""
+0 ""
+Axis 1.000000 0.000000 0.000000
+Speed 10.000000
+Scale 1.000000
+CompileInfo
+Filename ""
+Vis 1
+Light 1
+Bsp 1
+Preview 1
+MinLight 1
+SuppressHidden 0
+EntitiesOnly 0
+VisDetail 0
+Verbose 0
+ExtraSamples 0
+LightScale 1.000000
+Radiosity 0
+NumBounce 10
+PatchSize 128.000000
+FastPatch 0
+ReflectScale 1.000000
+MinLight 128.000000 128.000000 128.000000
+VisVerbose 0
+FullVis 0
+SortPortals 1
+BspVerbose 0
+EntityVerbose 0
+ShowGroups 1
+EntityVis 32
+"PathPoint" 1
+"FogLight" 1
+"ItemShredderAmmo" 1
+"ItemShredder" 1
+"ItemGrenadeAmmo" 1
+"ItemGrenade" 1
+"ItemRocketAmmo" 1
+"ItemRocket" 1
+"ItemArmor" 1
+"ItemHealth" 1
+"ChangeLevel" 1
+"MovingPlat" 1
+"Door" 1
+"ForceField" 1
+"PhysicalSystem" 1
+"PhysicsJoint" 1
+"PhysicsObject" 1
+"AttackerTurret" 1
+"DeathMatchStart" 1
+"PlayerStart" 1
+"BotMatchStart" 1
+"BlockActor" 1
+"BotActorStart" 1
+"ModelController" 1
+"ElectricBolt" 1
+"ElectricBoltTerminus" 1
+"DynamicLight" 1
+"Corona" 1
+"Camera" 1
+"ModelOrigin" 1
+"spotlight" 1
+"light" 1
+Grid 1
+Type 1
+Snap 1
+Metric 10
+Texel 8
+Rotation 15
+BspRebuild 1
+TexturedView 0
+Zoom 1.000000
+PitchRollYaw 0.000000 0.000000 0.000000
+CamPos 0.000000 0.000000 0.000000
+TopView 0
+Zoom 1.000000
+PitchRollYaw 0.000000 0.000000 0.000000
+CamPos 0.000000 0.000000 0.000000
+FrontView 0
+Zoom 1.000000
+PitchRollYaw 0.000000 0.000000 0.000000
+CamPos 0.000000 0.000000 0.000000
+SideView 0
+Zoom 1.000000
+PitchRollYaw 0.000000 0.000000 0.000000
+CamPos 0.000000 0.000000 0.000000
+ArchTemplate
+NumSlits 3
+Thickness 150.000000
+Width 100.000000
+Radius 200.000000
+WallSize 16.000000
+Style 0
+EndAngle 180.000000
+StartAngle 0.000000
+TCut 0
+BoxTemplate
+Solid 1
+TCut 0
+TSheet 0
+Thickness 16.000000
+XSizeBot 680.000000
+XSizeTop 680.000000
+YSize 360.000000
+ZSizeBot 560.000000
+ZSizeTop 560.000000
+ConeTemplate
+Style 0
+Width 200.000000
+Height 300.000000
+VerticalStrips 4
+Thickness 16.000000
+TCut 0
+CylinderTemplate
+BotXOffset 0.000000
+BotXSize 128.000000
+BotZOffset 0.000000
+BotZSize 128.000000
+Solid 0
+Thickness 16.000000
+TopXOffset 0.000000
+TopXSize 128.000000
+TopZOffset 0.000000
+TopZSize 128.000000
+VerticalStripes 6
+YSize 512.000000
+RingLength 0.000000
+TCut 0
+SpheroidTemplate
+HorizontalBands 4
+VerticalBands 8
+YSize 256.000000
+Solid 0
+Thickness 16.000000
+TCut 0
+StaircaseTemplate
+Height 128.000000
+Length 128.000000
+NumberOfStairs 8
+Width 64.000000
+MakeRamp 0
+TCut 0
+TemplatePos 0.000000 0.000000 0.000000
+DrawScale 1.000000
+LightmapScale 2.000000

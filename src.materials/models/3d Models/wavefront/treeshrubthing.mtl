@@ -1,0 +1,23 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+# Multi/Sub Material__35 (2) to come 
+#
+newmtl Cedar
+Ka  0.7 0.4 0.4
+Kd  0.7 0.4 0.4
+Ks  0.9 0.9 0.9
+d  1.0
+Ns  0.4
+illum 2
+#
+newmtl Matl
+Ka  0.3 0.6 0.0
+Kd  0.3 0.6 0.0
+Ks  0.7 0.8 0.6
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Material__35 done 
+#
+# EOF

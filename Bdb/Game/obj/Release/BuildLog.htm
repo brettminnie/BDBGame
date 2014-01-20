@@ -1,0 +1,58 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Game, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "i:\Bdb\Game\obj\Release\RSP00000D.rsp" with contents
+[
+/O2 /Op /Ot /G6 /GA /I "..\include" /I "c:\OgreSDK\include" /I "c:\OgreSDK\include\CEGUI" /I "c:\OgreSDK\samples\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Gm /EHsc /MD /GS /Fo"..\obj\Release/" /Fd"..\obj\Release/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+\Bdb\Game\src\Graphics\bdbgfxframelistener.cpp
+\Bdb\Game\src\main.cpp
+]
+Creating command line "cl.exe @i:\Bdb\Game\obj\Release\RSP00000D.rsp /nologo"
+Creating command line "rc.exe /fo"..\obj\Release/Game.res" .\res\Game.rc"
+Creating temporary file "i:\Bdb\Game\obj\Release\RSP00000E.rsp" with contents
+[
+/OUT:"..\bin\Release/Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"c:\OgreSDK\lib" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /OPT:NOWIN98 /MACHINE:X86 OgreMain.lib CEGUIBase.lib OgreGUIRenderer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+\Bdb\Game\obj\Release\main.obj
+\Bdb\Game\obj\Release\bdbgfxframelistener.obj
+\Bdb\Game\obj\Release\Game.res
+]
+Creating command line "link.exe @i:\Bdb\Game\obj\Release\RSP00000E.rsp"
+Creating temporary file "i:\Bdb\Game\obj\Release\BAT00000F.bat" with contents
+[
+@echo off
+copy ..\bin\Release\Game.exe c:\OgreSDK\Bin\Release
+if errorlevel 1 goto VCReportError
+goto VCEnd
+:VCReportError
+echo Project : error PRJ0019: A tool returned an error code from "Copying exe to samples bin directory ..."
+exit 1
+:VCEnd
+]
+Creating command line "i:\Bdb\Game\obj\Release\BAT00000F.bat"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+bdbgfxframelistener.cpp
+main.cpp
+Generating Code...
+Compiling resources...
+Linking...
+LINK : warning LNK4089: all references to 'MSVCP71.dll' discarded by /OPT:REF
+Copying exe to samples bin directory ...
+        1 file(s) copied.
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://i:\Bdb\Game\obj\Release\BuildLog.htm"
+Game - 0 error(s), 1 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

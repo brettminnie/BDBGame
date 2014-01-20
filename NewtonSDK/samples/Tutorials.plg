@@ -1,0 +1,634 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tutorial_01_GettingStarted - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E4.tmp" with contents
+[
+/nologo /MLd /W4 /GX /O2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial1.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dChunkParsel.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\toolBox\dTree.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_01_GettinStarted\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E4.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E5.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_01_GettingStarted.pdb" /machine:I386 /out:"..\bin\Tutorial_01_GettingStarted.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dChunkParsel.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\dTree.obj
+.\Release\GraphicSystem.obj
+.\Release\HiResTimer.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E5.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dChunkParsel.cpp
+dCRC.cpp
+dSceneNode.cpp
+dTree.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E7.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E7.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_02_UsingCallbacks - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E8.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial2.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_02_UsingCallbacks\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E8.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E9.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_02_UsingCallbacks.pdb" /machine:I386 /out:"..\bin\Tutorial_02_UsingCallbacks.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\GraphicSystem.obj
+.\Release\HiResTimer.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2E9.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2EB.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2EB.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_03_UsingCollisionTree - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2EC.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial3.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\common\LevelPrimitive.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_03_UsingCollisionTree\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2EC.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2ED.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_03_UsingCollisionTree.pdb" /machine:I386 /out:"..\bin\Tutorial_03_UsingCollisionTree.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\GraphicSystem.obj
+.\Release\HiResTimer.obj
+.\Release\LevelPrimitive.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2ED.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+LevelPrimitive.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2EF.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2EF.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_04_IntroductionToMaterials - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F0.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial4A.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\common\LevelPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_04_IntroductionToMaterials\Material.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_04_IntroductionToMaterials\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F0.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F1.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_04_IntroductionToMaterials.pdb" /machine:I386 /out:"..\bin\Tutorial_04_IntroductionToMaterials.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\GraphicSystem.obj
+.\Release\HiResTimer.obj
+.\Release\LevelPrimitive.obj
+.\Release\Material.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F1.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+LevelPrimitive.cpp
+Material.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F3.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F3.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_05_UsingJoints - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F4.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial5.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\tutorial_05_UsingJoints\JointsTutorial.cpp"
+"C:\newtonSDK\samples\common\LevelPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_05_UsingJoints\Materials.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_05_UsingJoints\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F4.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F5.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_05_UsingJoints.pdb" /machine:I386 /out:"..\bin\Tutorial_05_UsingJoints.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\GraphicSystem.obj
+.\Release\HiResTimer.obj
+.\Release\JointsTutorial.obj
+.\Release\LevelPrimitive.obj
+.\Release\Materials.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F5.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+JointsTutorial.cpp
+LevelPrimitive.cpp
+Materials.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F7.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F7.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_06_UtilityFuntionality - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F8.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /Ob2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial6A.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\tutorial_06_UtilityFuntionality\Materials.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_06_UtilityFuntionality\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F8.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F9.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_06_UtilityFuntionality.pdb" /machine:I386 /out:"..\bin\Tutorial_06_UtilityFuntionality.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\GraphicSystem.obj
+.\Release\HiResTimer.obj
+.\Release\Materials.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2F9.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+Materials.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2FD.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2FD.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_07_CharaterController - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2FE.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial7.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\tutorial_07_CharaterController\CharaterControl.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\common\LevelPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_07_CharaterController\Materials.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_07_CharaterController\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2FE.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2FF.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_07_CharaterController.pdb" /machine:I386 /out:"..\bin\Tutorial_07_CharaterController.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\CharaterControl.obj
+.\Release\GraphicSystem.obj
+.\Release\HiResTimer.obj
+.\Release\LevelPrimitive.obj
+.\Release\Materials.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP2FF.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+CharaterControl.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+LevelPrimitive.cpp
+Materials.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP302.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP302.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_08_HeightFieldCollision - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP303.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /Ob2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial8A.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HeightFieldCollision.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\tutorial_08_HeightFieldCollision\Materials.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_08_HeightFieldCollision\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP303.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP304.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_08_HeightFieldCollision.pdb" /machine:I386 /out:"..\bin\Tutorial_08_HeightFieldCollision.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\GraphicSystem.obj
+.\Release\HeightFieldCollision.obj
+.\Release\HiResTimer.obj
+.\Release\Materials.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP304.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+GraphicSystem.cpp
+HeightFieldCollision.cpp
+HiResTimer.cpp
+Materials.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP306.bat" with contents
+[
+@echo off
+xcopy "..\..\sdk\*.dll" "..\bin\*.*"  /F /Y
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP306.bat"
+
+File not found - *.dll
+0 File(s) copied
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_09_SimpleVehicle - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP307.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /Ob2 /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial9A.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dChunkParsel.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\toolBox\dTree.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HeightFieldCollision.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\tutorial_09_SimpleVehicle\Materials.cpp"
+"C:\newtonSDK\samples\common\NewtonJeep.cpp"
+"C:\newtonSDK\samples\common\NewtonTank.cpp"
+"C:\newtonSDK\samples\common\NewtonVehicle.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_09_SimpleVehicle\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP307.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP308.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_09_SimpleVehicle.pdb" /machine:I386 /out:"..\bin\Tutorial_09_SimpleVehicle.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\dBaseHierarchy.obj
+.\Release\dChunkParsel.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\dTree.obj
+.\Release\GraphicSystem.obj
+.\Release\HeightFieldCollision.obj
+.\Release\HiResTimer.obj
+.\Release\Materials.obj
+.\Release\NewtonJeep.obj
+.\Release\NewtonTank.obj
+.\Release\NewtonVehicle.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP308.tmp"
+<h3>Output Window</h3>
+Compiling...
+dBaseHierarchy.cpp
+dChunkParsel.cpp
+dCRC.cpp
+dSceneNode.cpp
+dTree.cpp
+GraphicSystem.cpp
+HeightFieldCollision.cpp
+HiResTimer.cpp
+Materials.cpp
+NewtonJeep.cpp
+NewtonTank.cpp
+NewtonVehicle.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP30B.bat" with contents
+[
+@echo off
+xcopy "..\..\sdk\*.dll" "..\bin\*.*"  /F /Y
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP30B.bat"
+
+File not found - *.dll
+0 File(s) copied
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorial_10_CustomJoints - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP30C.tmp" with contents
+[
+/nologo /ML /W4 /GX /O2 /I "..\..\sdk\customJoints" /I "..\toolbox" /I "..\common" /I "..\\" /I "..\..\sdk" /D "NDEBUG" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_NEWTON_USE_LIB" /Fp"Release/tutorial10.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\newtonSDK\sdk\customJoints\CustomBallAndSocket.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomConeLimitedBallAndSocket.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomCorkScrew.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomHinge.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomRayCastCar.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomSlider.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomUniversal.cpp"
+"C:\newtonSDK\sdk\customJoints\CustomUpVector.cpp"
+"C:\newtonSDK\sdk\customJoints\DryRollingFriction.cpp"
+"C:\newtonSDK\sdk\customJoints\NewtonCustomJoint.cpp"
+"C:\newtonSDK\samples\toolBox\dBaseHierarchy.cpp"
+"C:\newtonSDK\samples\toolBox\dCRC.cpp"
+"C:\newtonSDK\samples\toolBox\dSceneNode.cpp"
+"C:\newtonSDK\samples\toolBox\dTree.cpp"
+"C:\newtonSDK\samples\tutorial_10_CustomJoints\CharaterControl.cpp"
+"C:\newtonSDK\samples\toolBox\dChunkParsel.cpp"
+"C:\newtonSDK\samples\common\GraphicSystem.cpp"
+"C:\newtonSDK\samples\common\HiResTimer.cpp"
+"C:\newtonSDK\samples\tutorial_10_CustomJoints\JointsTutorial.cpp"
+"C:\newtonSDK\samples\common\LevelPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_10_CustomJoints\Materials.cpp"
+"C:\newtonSDK\samples\common\OpenGlUtil.cpp"
+"C:\newtonSDK\samples\common\RenderPrimitive.cpp"
+"C:\newtonSDK\samples\tutorial_10_CustomJoints\tutorial.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP30C.tmp" 
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP30D.tmp" with contents
+[
+newton.lib GLAUX.LIB glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Tutorial_10_CustomJoints.pdb" /machine:I386 /out:"..\bin\Tutorial_10_CustomJoints.exe" /libpath:"..\gl" /libpath:"..\..\sdk\lib_st" 
+.\Release\CustomBallAndSocket.obj
+.\Release\CustomConeLimitedBallAndSocket.obj
+.\Release\CustomCorkScrew.obj
+.\Release\CustomHinge.obj
+.\Release\CustomRayCastCar.obj
+.\Release\CustomSlider.obj
+.\Release\CustomUniversal.obj
+.\Release\CustomUpVector.obj
+.\Release\DryRollingFriction.obj
+.\Release\NewtonCustomJoint.obj
+.\Release\dBaseHierarchy.obj
+.\Release\dCRC.obj
+.\Release\dSceneNode.obj
+.\Release\dTree.obj
+.\Release\CharaterControl.obj
+.\Release\dChunkParsel.obj
+.\Release\GraphicSystem.obj
+.\Release\HiResTimer.obj
+.\Release\JointsTutorial.obj
+.\Release\LevelPrimitive.obj
+.\Release\Materials.obj
+.\Release\OpenGlUtil.obj
+.\Release\RenderPrimitive.obj
+.\Release\tutorial.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP30D.tmp"
+<h3>Output Window</h3>
+Compiling...
+CustomBallAndSocket.cpp
+CustomConeLimitedBallAndSocket.cpp
+CustomCorkScrew.cpp
+CustomHinge.cpp
+CustomRayCastCar.cpp
+CustomSlider.cpp
+CustomUniversal.cpp
+CustomUpVector.cpp
+DryRollingFriction.cpp
+NewtonCustomJoint.cpp
+dBaseHierarchy.cpp
+dCRC.cpp
+dSceneNode.cpp
+dTree.cpp
+CharaterControl.cpp
+dChunkParsel.cpp
+GraphicSystem.cpp
+HiResTimer.cpp
+JointsTutorial.cpp
+LevelPrimitive.cpp
+Materials.cpp
+OpenGlUtil.cpp
+RenderPrimitive.cpp
+tutorial.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP30F.bat" with contents
+[
+@echo off
+xcopy "..\gl\*.dll" "..\bin\*.*"  /F /Y
+]
+Creating command line "C:\DOCUME~1\JULIOJ~1\LOCALS~1\Temp\RSP30F.bat"
+
+C:\newtonSDK\samples\gl\Glut32.dll -> C:\newtonSDK\samples\bin\Glut32.dll
+1 File(s) copied
+<h3>
+--------------------Configuration: Tutorials - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+Tutorials - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

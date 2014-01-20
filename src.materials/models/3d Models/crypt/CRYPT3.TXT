@@ -1,0 +1,48 @@
+File name    : Crypt3.3ds
+
+Author       : Ice Blade of Crypto-Phobia
+E-mail       : IceBlade@Icon.co.za
+
+Time to make : +- 5 hour
+Program      : 3D Studio ver 3
+System       : 486 Dx2/66, 12 meg ram
+Size         : 1132k     (Mesh : 875k)
+Compressed   : 400k      (Mesh : 270k)
+
+Faces        : 35428
+Objects      : 139
+Vertices     : 17992
+Lights       : 1 (spot)
+View         : Camera
+
+Comments     :
+
+I Found the site WWW.3Dcafe.com to be exelent and decided to scroll
+through their files. I came across a crypt which I thought was
+a nice idea to make in 3D. I was dissapointed at how little there
+was to the one I took. The next day I kicked in the old 486 and
+ripped away until I had made this.
+
+A friend suggested killing the 'spikes' I put on the walls, but, he
+also gave what he would like to see. He wanted the same idea but
+the 'spikes' had to be smaller (about 1/4 the size) and tiled. This
+would be an effort, but, you just need the right texture and bump
+map.
+
+(This happens to be the third time I'm editing this text.) Ok, I've
+gone under direction of the same friend who said that some railings
+would look good.
+In the process I found that the door looked a little stark and so
+added a door colour and bump maps. Now it looks more like a real
+door. I replaced the 'purple' stone I made with one I found at the
+3Dcafe.com site. Mine made the place look over evil, so, now it just
+looks evil.  :)
+I also fixed the steps with side boxes to map more 3D (no scraping
+colours along edges.) If any one can help and tell me the process
+in 3D studio ver3 to 3D texture map I'ed really like it.
+
+Please send any comments to me, I'ed like to hear from others that
+might know more than I do.
+
+Ice Blade
+97'
